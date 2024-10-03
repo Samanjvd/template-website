@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "TTNorms Medium";
+  src: url("../../../fonts/TTNorms-Medium.otf") format("openType");
+}
+
+.container {
+  max-width: 80rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.works {
+  text-align: center;
+}
+
+.works-top-text {
+  color: #6c7890;
+  text-transform: uppercase;
+}
+
+.works-title {
+  color: #081d43;
+  margin-top: 0.8rem;
+  font-family: "TTNorms Medium";
+  font-weight: normal;
+}
+
+.works-contect {
+  text-align: center;
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-bottom {
+  max-width: 31rem;
+  margin: 0 auto;
+}
+
+.works-img {
+  width: 100%;
+}

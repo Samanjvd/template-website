@@ -1,0 +1,9 @@
+.portfolio-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.portfolio-item {
+  margin: 1rem 0;
+}

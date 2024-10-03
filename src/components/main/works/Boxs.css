@@ -1,0 +1,15 @@
+.boxs {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #081d43;
+  margin-bottom: 0.8rem;
+}
+
+.text {
+  color: #6c7890;
+  line-height: 2rem;
+  max-width: 16rem;
+}

@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "TTNorms Medium";
+  src: url("../../../fonts/TTNorms-Medium.otf") format("openType");
+}
+
+@font-face {
+  font-family: "TTNorms Light";
+  src: url("../../../fonts/TTNorms-Light.otf") format("openType");
+}
+
+.container {
+  max-width: 80rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.person-comments {
+  background-color: #2f5bea;
+  color: #fff;
+  text-align: center;
+  margin: 4rem 0 0 0;
+  padding: 3rem 0;
+}
+
+.person-comments-title {
+  font-family: "TTNorms Medium";
+  margin-bottom: 0.8rem;
+}
+
+.person-comments-text {
+  font-family: "TTNorms Light";
+  max-width: 28rem;
+  margin: 0 auto;
+}
+
+.comment-box {
+  margin: 5rem 1rem 5rem 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.comment-container {
+  max-width: 62rem;
+  margin: 0 auto;
+}
