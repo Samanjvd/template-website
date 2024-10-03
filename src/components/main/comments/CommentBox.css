@@ -1,8 +1,3 @@
-@font-face {
-  font-family: "Times Roman Italic";
-  src: url("../../../fonts/Times-new-roman-italic.ttf") format("truetype");
-}
-
 .comments {
   display: flex;
   flex-direction: column;
@@ -18,7 +13,7 @@
 }
 
 .comment-massage {
-  font-family: "Times Roman Italic";
+  font-family: "Times-Roman-Italic";
   color: #7e8085;
   text-align: left;
   padding: 1rem 0.5rem 1rem 1rem;

@@ -3,11 +3,11 @@
   align-items: center;
 }
 
-.nav-lego {
+.navLego {
   margin-right: 1.5rem;
 }
 
-.nav-lego-img {
+.navLegoImg {
   padding: 0 0.5rem;
   color: #081d43;
 }
@@ -17,7 +17,7 @@
   list-style: none;
 }
 
-.menu-link {
+.menuLink {
   color: #081d43;
   padding: 0.5rem 0.5rem;
   border-radius: 0.2rem;
@@ -27,7 +27,7 @@
   -o-border-radius: 0.2rem;
 }
 
-.menu-link:hover {
+.menuLink:hover {
   background-color: #2c57e4;
   color: #fff;
 }

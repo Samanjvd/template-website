@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "TTNorms";
+  src: url("./TTNorms-Regular.otf") format("openType");
+  font-weight: 500;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "TTNorms";
+  src: url("./TTNorms-Medium.otf") format("openType");
+  font-weight: 600;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "TTNorms";
+  src: url("./TTNorms-Light.otf") format("openType");
+  font-weight: 400;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: "Times-Roman-Italic";
+  src: url("./Times-new-roman-italic.ttf") format("trueType");
+  font-display: fallback;
+}

@@ -1,25 +1,25 @@
-.header-bottom {
+.headerBottom {
   display: flex;
 }
 
-.header-content-left {
+.headerContentLeft {
   flex-basis: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.header-content-right {
+.headerContentRight {
   flex-basis: 50%;
 }
 
-.box-links {
+.boxLinks {
   display: flex;
   padding: 2rem 0;
   gap: 0.8rem;
 }
 
-.header-content-link {
+.headerContentLink {
   background-color: #0050c8;
   color: #fff;
   padding: 0.8rem 1.5rem;
@@ -36,21 +36,21 @@
   background-color: #87bc25;
 }
 
-.section-text {
+.sectionText {
   width: 70%;
 }
 
-.header-content-title {
+.headerContentTitle {
   color: #081d43;
-  font-family: "TTNorms Medium";
+  font-family: "TTNorms";
   line-height: 2.5rem;
 }
 
-.header-content-text {
+.headerContentText {
   color: #6c7890;
   line-height: 2rem;
 }
 
-.header-content-img {
+.headerContentImg {
   width: 100%;
 }

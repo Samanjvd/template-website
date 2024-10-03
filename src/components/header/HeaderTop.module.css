@@ -1,11 +1,11 @@
-.header-top {
+.headerTop {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 0;
 }
 
-.header-link {
+.headerLink {
   background-color: #0050c8;
   color: #fff;
   padding: 0.8rem 1.5rem;

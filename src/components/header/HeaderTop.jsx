@@ -1,5 +1,5 @@
 import React from "react";
-import "./HeaderTop.css";
+import styles from "./HeaderTop.module.css";
 import Navbar from "./Navbar";
 
 export default function HeaderTop() {
@@ -12,9 +12,9 @@ export default function HeaderTop() {
   };
 
   return (
-    <section className="header-top">
+    <section className={styles.headerTop}>
       <Navbar {...namesNavbar} />
-      <a href="#" className="header-link">
+      <a href="#" className={styles.headerLink}>
         Contact us
       </a>
     </section>
