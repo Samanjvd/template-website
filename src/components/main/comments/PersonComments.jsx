@@ -1,5 +1,5 @@
 import React from "react";
-import "./PersonComments.css";
+import styles from "./PersonComments.module.css";
 import CommentBox from "./CommentBox";
 import Logos from "./Logos";
 
@@ -34,15 +34,15 @@ export default function PersonComments() {
   };
 
   return (
-    <section className="person-comments">
-      <div className="container">
-        <h2 className="person-comments-title">You’re in a good hand</h2>
-        <p className="person-comments-text">
+    <section className={styles.personComments}>
+      <div className={styles.container}>
+        <h2 className={styles.personCommentsTitle}>You’re in a good hand</h2>
+        <p className={styles.personCommentsText}>
           There are many variations of passages of Lorem Ipsum available, but
           the majority have suffered.
         </p>
-        <div className="comment-container">
-          <div className="comment-box">
+        <div className={styles.commentContainer}>
+          <div className={styles.commentBox}>
             <CommentBox {...personCommentProps[0]} />
             <CommentBox {...personCommentProps[1]} />
             <CommentBox {...personCommentProps[2]} />

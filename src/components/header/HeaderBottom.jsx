@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./HeaderBottom.module.css";
 
 export default function HeaderBottom() {
+  
   return (
     <section className={styles.headerBottom}>
       <div className={styles.headerContentLeft}>
@@ -17,10 +18,10 @@ export default function HeaderBottom() {
           </p>
         </div>
         <div className={styles.boxLinks}>
-          <a href="#" className={['styles.headerContentLink' , 'styles.color']}  >
+          <a href="/#" className={`${styles.headerContentLink}  ${styles.color}`}   >
             Contact us
           </a>
-          <a href="#" className={styles.headerContentLink}>
+          <a href="/#" className={styles.headerContentLink}>
             See our works
           </a>
         </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Portfolio.css";
+import styles from "./Portfolio.module.css";
 import PortfolioItems from "./PortfolioItems";
 
 export default function Portfolio() {
@@ -13,10 +13,10 @@ export default function Portfolio() {
   };
 
   return (
-    <div className="container">
-      <div className="portfolio">
-        <div className="portfolio-top-text">PORTFOLIO</div>
-        <div className="portfolio-title">
+    <div className={styles.container}>
+      <div className={styles.portfolio}>
+        <div className={styles.portfolioTopText}>PORTFOLIO</div>
+        <div className={styles.portfolioTitle}>
           Three Simple Step To Started Working Process
         </div>
         <PortfolioItems {...portfolioProps} />

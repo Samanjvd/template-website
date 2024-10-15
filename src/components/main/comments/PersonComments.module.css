@@ -6,7 +6,7 @@
   padding-left: 1rem;
 }
 
-.person-comments {
+.personComments {
   background-color: #2f5bea;
   color: #fff;
   text-align: center;
@@ -14,27 +14,27 @@
   padding: 3rem 0;
 }
 
-.person-comments-title {
+.personCommentsTitle {
   font-family: "TTNorms";
   font-weight: 600;
   margin-bottom: 0.8rem;
 }
 
-.person-comments-text {
+.personCommentsText {
   font-family: "TTNorms";
   font-weight: 400;
   max-width: 28rem;
   margin: 0 auto;
 }
 
-.comment-box {
+.commentBox {
   margin: 5rem 1rem 5rem 1rem;
   display: flex;
   justify-content: center;
   gap: 2.5rem;
 }
 
-.comment-container {
+.commentContainer {
   max-width: 62rem;
   margin: 0 auto;
 }

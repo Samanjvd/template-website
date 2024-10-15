@@ -12,7 +12,7 @@
   -o-border-radius: 4px;
 }
 
-.comment-massage {
+.commentMassage {
   font-family: "Times-Roman-Italic";
   color: #7e8085;
   text-align: left;
@@ -21,7 +21,7 @@
   min-height: 10rem;
 }
 
-.comment-info {
+.commentInfo {
   display: flex;
   justify-content: space-around;
   align-items: center;

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Works.css";
+import styles from "./Works.module.css";
 import Boxs from "./Boxs";
 
 export default function Works() {
@@ -19,19 +19,19 @@ export default function Works() {
   ];
 
   return (
-    <div className="container">
-      <section className="works">
-        <h4 className="works-top-text">HOW IT WORK</h4>
-        <h2 className="works-title">
+    <div className={styles.container}>
+      <section className={styles.works}>
+        <h4 className={styles.worksTopText}>HOW IT WORK</h4>
+        <h2 className={styles.worksTitle}>
           Three Simple Step To Started Working Process
         </h2>
-        <div className="works-contect">
+        <div className={styles.worksContect}>
           <Boxs {...boxsProps[0]} />
           <Boxs {...boxsProps[1]} />
           <Boxs {...boxsProps[2]} />
         </div>
-        <div className="img-bottom">
-          <img src="./images/main-img.svg" alt="works" className="works-img" />
+        <div className={styles.imgBottom}>
+          <img src="./images/main-img.svg" alt="works" className={styles.worksImg} />
         </div>
       </section>
     </div>
